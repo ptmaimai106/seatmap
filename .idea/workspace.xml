@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d069b947-5e27-4da6-b98e-b5df76100c8e" name="Default Changelist" comment="Handle rewrite url:&#10;- Edit file name and href of anchor tag&#10;- Update file .htaccess">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user_controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user_controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlyog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sqlyog.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.dev.cybozu.co.jp/mai-phan/SeatmapManagement" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hFmER9uZWwItshGmT7BsrjtyQ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d069b947-5e27-4da6-b98e-b5df76100c8e" name="Default Changelist" comment="" />
+      <created>1599615102722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599615102722</updated>
+      <workItem from="1599615103764" duration="886000" />
+      <workItem from="1599616636222" duration="599000" />
+      <workItem from="1599617311204" duration="24345000" />
+      <workItem from="1599700416105" duration="1251000" />
+      <workItem from="1599701689118" duration="8000" />
+      <workItem from="1599701698148" duration="21926000" />
+      <workItem from="1599747866543" duration="5205000" />
+      <workItem from="1599776625791" duration="2269000" />
+      <workItem from="1599902474382" duration="1714000" />
+      <workItem from="1599929424247" duration="1449000" />
+      <workItem from="1599962035477" duration="3517000" />
+      <workItem from="1600046220549" duration="27433000" />
+      <workItem from="1600097969330" duration="3858000" />
+      <workItem from="1600119619829" duration="4173000" />
+      <workItem from="1600124131668" duration="996000" />
+      <workItem from="1600219998304" duration="538000" />
+      <workItem from="1600221098261" duration="126000" />
+      <workItem from="1600221436591" duration="9278000" />
+      <workItem from="1600235728574" duration="630000" />
+      <workItem from="1600237990482" duration="10227000" />
+      <workItem from="1600249114933" duration="3575000" />
+      <workItem from="1600305747914" duration="24562000" />
+      <workItem from="1600392567411" duration="22702000" />
+      <workItem from="1600651107211" duration="22938000" />
+      <workItem from="1600740919750" duration="15231000" />
+      <workItem from="1600765350715" duration="2029000" />
+      <workItem from="1600910714580" duration="10205000" />
+      <workItem from="1600927158060" duration="1789000" />
+      <workItem from="1600931795136" duration="9217000" />
+      <workItem from="1600995039005" duration="471000" />
+    </task>
+    <task id="LOCAL-00001" summary="Remove View_c folder">
+      <created>1600335394334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600335394334</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Handle rewrite url:&#10;- Edit file name and href of anchor tag&#10;- Update file .htaccess">
+      <created>1600939700076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600939700076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Remove View_c folder" />
+    <MESSAGE value="Refactor code" />
+    <MESSAGE value="Add uploaded file" />
+    <MESSAGE value="Handle rewrite url:&#10;- Edit file name and href of anchor tag&#10;- Update file .htaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle rewrite url:&#10;- Edit file name and href of anchor tag&#10;- Update file .htaccess" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600138617087">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="272" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600138617087" />
+    <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599618348538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599618348538" />
+    <state x="857" y="146" width="749" height="792" key="CommitChangelistDialog2" timestamp="1601025967048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="133" y="125" width="1230" height="863" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600335441794" />
+    <state x="857" y="146" width="749" height="792" key="CommitChangelistDialog2/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1601025967048" />
+    <state x="368" y="108" key="DiffContextDialog" timestamp="1600827270291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="108" key="DiffContextDialog/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1600827270291" />
+    <state x="629" y="308" key="EditFileWatcherDialog" timestamp="1600681738621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="308" key="EditFileWatcherDialog/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1600681738621" />
+    <state x="2503" y="424" key="FileChooserDialogImpl" timestamp="1600929007792">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="583" y="421" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600309908547" />
+    <state x="2503" y="421" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600072866759" />
+    <state x="2503" y="424" key="FileChooserDialogImpl/0.0.1920.1040/1920.3.1920.1040@1920.3.1920.1040" timestamp="1600929007792" />
+    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1600137993002">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1600137993002" />
+    <state x="392" y="190" key="SettingsEditor" timestamp="1600238060817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="392" y="190" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600238060817" />
+    <state x="790" y="399" key="VCS.EditChangelistDialog" timestamp="1600654587477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="399" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1600654587477" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600939708845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1600939708845" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600758344525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1600758344525" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599705237596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599705237596" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600307104425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600307104425" />
+  </component>
+</project>
