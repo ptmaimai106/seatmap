@@ -42,7 +42,8 @@ class UserSeatmapController{
         } else {
             if($_POST['remove']){
                 $this->deleteUserPosition();
-                return true;
+//                $this->showSeatMap();
+                    return true;
             }else{
                 $this->changeUserPosition();
                 return true;

@@ -111,7 +111,7 @@
             const xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    location.href="/seatmap/seatmaps/"+id_seatmap;
+                    // location.href="/seatmap/seatmaps/"+id_seatmap;
                 }
             };
             xmlhttp.open("POST", "../controller/user_seatmap_controller.php", true);
@@ -129,6 +129,7 @@
     });
 
     $(".close").click(function (){
+
         const id_seatmap = $("select[name=seatmapList]").val();
         const id_user=$(this).closest('div').attr('id');
 
@@ -137,7 +138,7 @@
         xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-                location.href="/seatmap/seatmaps/"+id_seatmap;
+                  location.href="/seatmap/seatmaps/"+id_seatmap;
             }
         };
         const data = "remove=1&&seatmap="+id_seatmap+"&&user="+ id_user;

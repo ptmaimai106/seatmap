@@ -11,22 +11,17 @@ class DB{
     public $port;
 
     private function __construct(){
-        $config_data = file_get_contents("../config.json");
-        $config_content = json_decode($config_data, true);
 
-        $this->servername = $config_content["servername"];
-        $this->username = $config_content["username"];
-        $this->password = $config_content["password"];
-        $this->dbname = $config_content["dbname"];
-        $this->port = $config_content["port"];
+        $this->username = "root";
+        $this->password = "secret";
+        $this->dbname = "seatmap_management";
 
-        $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname, $this->port);
+        $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
 
         if($this->conn->connect_error){
             die("Connect failed: " .$this->conn->connect_error);
         }
     }
-
 
     public static function getInstance(){
         if(!isset(self::$instance)){

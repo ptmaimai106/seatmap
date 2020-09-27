@@ -9,9 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d069b947-5e27-4da6-b98e-b5df76100c8e" name="Default Changelist" comment="Handle rewrite url:&#10;- Edit file name and href of anchor tag&#10;- Update file .htaccess">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/seatmap_controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/seatmap_controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/upload/Thank-you.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/controller/upload/Thank-you.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/user_controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user_controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlyog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sqlyog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user_seatmap_controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user_seatmap_controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/seatmap_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/seatmap_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/seatmap.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/seatmap.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/seatmap_detail.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/seatmap_detail.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/user.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/user.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +103,9 @@
       <workItem from="1600927158060" duration="1789000" />
       <workItem from="1600931795136" duration="9217000" />
       <workItem from="1600995039005" duration="471000" />
+      <workItem from="1601177040721" duration="4923000" />
+      <workItem from="1601200935497" duration="2373000" />
+      <workItem from="1601208999562" duration="7370000" />
     </task>
     <task id="LOCAL-00001" summary="Remove View_c folder">
       <created>1600335394334</created>

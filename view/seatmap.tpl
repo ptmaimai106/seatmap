@@ -1,7 +1,6 @@
 {include file="share/header.tpl"}
 {include file="share/breadcrumb.tpl"}
 
-
 <div class="container" style="min-height: 60vh">
     {if $message}
         <p  class="alert alert-success" role="alert">{$message}</p>
@@ -147,7 +146,6 @@
     </div>
 </div>
 
-
 {include file="share/footer.tpl"}
 
 <script>
@@ -159,12 +157,11 @@
     $(document).on('click', '.update', function (e) {
         const id = $(this).attr("data-id");
         const name = $(this).attr("data-name");
-        const filename = '/seatmap/controller/'+ $(this).attr("data-filename");
+        const filename = $(this).attr("data-filename");
 
         $('#id_u').val(id);
         $('#name_u').val(name);
-
-        $('#preview_u').attr('src', filename);
+        $('#preview_u').attr('src', "/seatmap/controller/"+filename);
         $('#filename_old').val(filename);
 
     });

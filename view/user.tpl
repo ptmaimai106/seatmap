@@ -122,6 +122,7 @@
                 </div>
                 <div class="modal-footer">
                     <input type="hidden" value="1" name="type">
+                    <input type="hidden" value="{$csrf_a}" name="csrf_a">
                     <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                     <button type="submit" class="btn btn-success add-user" id="btn-add" name="add-user">Add</button>
                 </div>
@@ -177,6 +178,7 @@
                 </div>
 
                 <div class="modal-footer">
+                    <input type="hidden" value="{$csrf_u}" name="csrf_u">
                     <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                     <button type="submit" class="btn btn-info" name="update-user">Update</button>
                 </div>
@@ -198,6 +200,7 @@
                     <p>Are you sure you want to delete?</p>
                 </div>
                 <div class="modal-footer">
+                    <input type="hidden" value="{$csrf_d}" name="csrf_d">
                     <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                     <button type="submit" class="btn btn-danger" id="delete-user" name="delete-user">Delete</button>
                 </div>

@@ -29,5 +29,7 @@ if(isset($_POST['login-btn'])) {
 else {
     if($_SESSION['logined']){
         header("Location: /seatmap");
-    }else $smarty->display('login.tpl');
+    }else {
+        $smarty->display('login.tpl');
+    }
 }

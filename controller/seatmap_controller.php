@@ -35,9 +35,7 @@ class SeatmapController{
     }
 
     function invoke($message){
-
         $this->smarty->assign("breadcrumbs", $this->breadcrumbs);
-
         $this->smarty->assign('message', $message);
         $this->smarty->assign('seatmapList', $this->getSeatmaps());
         $this->smarty->display('seatmap.tpl');

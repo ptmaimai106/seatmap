@@ -18,14 +18,34 @@ class UserController{
 
     private static $instance;
 
+    public $csrf_a;
+    public $csrf_u;
+    public $csrf_d;
+
     private function __construct(){
         $this->user = new UserModel();
-
         $this->message = "";
         $this->messageUpload = "";
         $this->smarty = new MySmarty();
-
         $this->breadcrumbs = $this->showBreadCrumb();
+
+        if(!$_SESSION['csrf_a'] ){
+            $this->csrf_a =md5(uniqid());
+            $_SESSION['csrf_a'] =  $this->csrf_a;
+        }else $this->csrf_a = $_SESSION['csrf_a'];
+
+        if(!$_SESSION['csrf_d']){
+            $this->csrf_d = md5(uniqid());
+            $_SESSION['csrf_d'] =  $this->csrf_d;
+
+        }else $this->csrf_d = $_SESSION['csrf_d'];
+
+        if(!$_SESSION['csrf_u']){
+            $this->csrf_u = md5(uniqid());
+            $_SESSION['csrf_u'] =  $this->csrf_u;
+
+        }else $this->csrf_u = $_SESSION['csrf_u'];
+
     }
 
     public static function getInstance(){
@@ -38,13 +58,14 @@ class UserController{
     public function handler(){
         $method = $_SERVER["REQUEST_METHOD"];
         if($method == "POST"){
-            if(isset($_POST['add-user'])){
+
+            if(isset($_POST['add-user']) && $_POST['csrf_a'] == $_SESSION['csrf_a']){
                 $this->message = $this->addUser();
             }
-            if(isset($_POST['update-user'])) {
+            if(isset($_POST['update-user']) && $_POST['csrf_u'] == $_SESSION['csrf_u']) {
                 $this->message = $this->editUser();
             }
-            if(isset($_POST['delete-user'])){
+            if(isset($_POST['delete-user']) && $_POST['csrf_d'] == $_SESSION['csrf_d']){
                 $this->message = $this->deleteUser();
             }
         }else {
@@ -71,6 +92,11 @@ class UserController{
         $this->smarty->assign('page', $_GET['p']);
         $this->smarty->assign('numPage', $this->getNumPage());
         $this->smarty->assign('userList', $this->getUsers());
+
+        $this->smarty->assign('csrf_a', $this->csrf_a);
+        $this->smarty->assign('csrf_u', $this->csrf_u);
+        $this->smarty->assign('csrf_d', $this->csrf_d);
+
         $this->smarty->display('user.tpl');
     }
 
@@ -101,6 +127,7 @@ class UserController{
         $numPage = $countUser%10 == 0 ? $countUser/10 : $countUser/10 +1;
         return $numPage;
     }
+
     function uploadAvatar(): bool
     {
         $target_dir = SITE_ROOT."/upload/";

@@ -25,7 +25,6 @@ class SeatmapModel{
 
     public function addSeatmap(string $name,string $filename): int
     {
-
         $queryAdd = "INSERT INTO `seatmap`( `name`, `filename`)VALUES ('$name','$filename')";
         $insert_id = $this->db->addRecord($queryAdd);
         return $insert_id;
